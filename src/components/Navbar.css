@@ -4,7 +4,11 @@
     background-color: #0da487;
     color: white;
     cursor: pointer;
+    /* border: 1px solid red; */
+
     position: fixed;
+    /* overflow: scroll; */
+    /* overflow-y: auto; */
 }
 .ArrayOfList {
     width: 20vw;
@@ -15,6 +19,8 @@
     gap: 15px;
     align-items: center;
     cursor: pointer;
+    /* overflow-y: auto; */
+    /* border: 1px solid red; */
     /* background-color: black; */
     /* margin-top: 1rem; */
   
@@ -52,7 +58,12 @@
 
 }
 .Mapdiv{
-  /* bottom: 10%; */
+ /* width: 50%;
+ height: auto; */
   margin-top: 4.6rem;
+  border: 1px solid red;
+  /* position: fixed; */
+
+  overflow-y: hidden;
 }
 

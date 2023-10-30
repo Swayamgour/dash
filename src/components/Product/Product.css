@@ -1,0 +1,62 @@
+table,
+th,
+td {
+  border-collapse: collapse;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  /* padding: 20px ,10px; */
+  /* padding: 5px 5px 5px 10px; */
+}
+
+table {
+  margin-left: 1rem;
+  /* margin-right: 1rem; */
+  /* width: ; */
+}
+
+th,
+td {
+  padding: 10px 10px 10px 70px;
+
+
+}
+
+th {
+  font-size: 20px;
+  text-align: center;
+}
+
+td {
+  font-size: 15px;
+  text-align: center;
+}
+
+tr {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+}
+
+thead {
+  background-color: gray;
+}
+
+.ProductAndButton {
+  display: grid;
+  grid-template-columns: 80% 20%;
+  background-color: white;
+}
+
+.AddProduct {
+  width: 8rem;
+  margin-top: 1rem;
+  height: 3rem;
+  background-color: #0da487;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.AddProduct:active {
+  background-color: white;
+  color: black;
+}

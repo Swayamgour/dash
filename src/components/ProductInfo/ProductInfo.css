@@ -1,0 +1,50 @@
+.mainDiv{
+    background-color: whitesmoke;
+  }
+  .ProductInfo{
+    padding: 1rem;
+    margin-left: 23.5%;
+    font-size: 25px;
+  
+    /* align-items: center;
+    text-align: center; */
+  }
+  .ProductInfoName{
+    padding: .9rem;
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: 2rem; */
+  
+  }
+  .ProductInfoMain{
+    /* border: 1px solid black; */
+    width: 40%;
+    margin-left: 25%;
+    background-color: white;
+    border-radius: 10px;
+  }
+  label{
+    font-size: 20px;
+    color: #4A5568;
+  }
+  .input{
+    border: 1px solid gray;
+    outline: none;
+    border-radius: 2px;
+    width: 14rem;
+    height: 6vh;
+    text-align: center;
+    color: #4A5568 ;
+    /* border-bottom: 1px solid gray; */
+  }
+  button{
+    width: 80%;
+    margin-left: 3rem;
+    height: 10vh;
+    margin-top: 1.3rem;
+    background-color:#0da487 ;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+  }
