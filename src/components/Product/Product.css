@@ -14,8 +14,7 @@ table {
   /* margin-right: 1rem; */
   /* width: ; */
 }
-
-th ,td {
+.thh , .tdd {
   padding: 10px 20px 10px 60px;
   /* border: 1px solid bl; */
 
@@ -50,6 +49,7 @@ thead {
   grid-template-columns: 75% 20%;
   background-color: white;
   padding: 10px;
+  /* margin-top: 2rem; */
 }
 
 .AddProduct {
@@ -91,4 +91,5 @@ input {
 }
 .TableSection{
   overflow: auto;
+  /* width: 300px; */
 }
