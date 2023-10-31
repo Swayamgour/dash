@@ -4,11 +4,7 @@
     background-color: #0da487;
     color: white;
     cursor: pointer;
-    /* border: 1px solid red; */
-
     position: fixed;
-    /* overflow: scroll; */
-    /* overflow-y: auto; */
 }
 .ArrayOfList {
     width: 20vw;

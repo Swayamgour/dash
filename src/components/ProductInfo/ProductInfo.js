@@ -1,8 +1,11 @@
 import React from 'react';
 import './ProductInfo.css';
+import Home from '../../pages/Home/Home';
 
 export default function App() {
   return (
+    <>
+    <Home />
     <div className="mainDiv">
       <div className="ProductInfo">Product Information</div>
 
@@ -67,5 +70,6 @@ export default function App() {
         <button>Submit</button>
       </div>
     </div>
+    </>
   );
 }
