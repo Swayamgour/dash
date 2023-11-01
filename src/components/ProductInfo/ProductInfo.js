@@ -1,11 +1,9 @@
 import React from 'react';
 import './ProductInfo.css';
-import Home from '../../pages/Home/Home';
 
 export default function App() {
   return (
     <>
-      <Home />
       <div className="mainDiv">
 
         <div className="ProductInfoMain">
@@ -15,13 +13,7 @@ export default function App() {
             <input className='input' type="text" placeholder='Product Name' />
           </div>
 
-          {/* <div className="ProductInfoName">
-          <label htmlFor="">Product Type</label>
-          <select className="input">
-            <option>Simple</option>
-            <option>Classified</option>
-          </select>
-        </div> */}
+         
           <div className="ProductInfoName">
             <label htmlFor="">Product Category</label>
             <select className="input">
@@ -54,21 +46,15 @@ export default function App() {
               <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" />
             </div>
           </div>
-
+          <div className="ProductInfoName">
+            <label htmlFor="">Product Description</label>
+            <input className='input' type="text" placeholder='Product Description' />
+          </div>
 
           <button>Submit</button>
 
         </div>
-        <div className="Description">
-          <div className="ProductInfo">
-            Descripsen
-          </div>
-          <div className="ProductInfoName">
-            Product Descripsen
-
-
-          </div>
-        </div>
+       
         <div>
           <div className='Category_container'>
             <div>
@@ -89,7 +75,7 @@ export default function App() {
               </select>
               {/* <div></div> */}
             </div>
-            <div style={{ border: '1px solid black', height: '40vh' }}>
+            <div style={{  height: '40vh' }}>
               <table>
                 <thead>
                   <tr>
@@ -101,9 +87,27 @@ export default function App() {
                 </thead>
                 <tr>
                   <td>red</td>
-                  <td><input/></td>
-                  <td><input/></td>
-                  <td><input/></td>
+                  <td id='ProdutInfoInput1'>< input id='ProdutInfoInput'/></td>
+                  <td id='ProdutInfoInput1'><input id='ProdutInfoInput'/></td>
+                  <td id='ProdutInfoInput1'><input id='ProdutInfoInput'/></td>
+                </tr>
+                <tr>
+                  <td>red</td>
+                  <td id='ProdutInfoInput1'>< input id='ProdutInfoInput'/></td>
+                  <td id='ProdutInfoInput1'><input id='ProdutInfoInput'/></td>
+                  <td id='ProdutInfoInput1'><input id='ProdutInfoInput'/></td>
+                </tr>
+                <tr>
+                  <td>red</td>
+                  <td id='ProdutInfoInput1'>< input id='ProdutInfoInput'/></td>
+                  <td id='ProdutInfoInput1'><input id='ProdutInfoInput'/></td>
+                  <td id='ProdutInfoInput1'><input id='ProdutInfoInput'/></td>
+                </tr>
+                <tr>
+                  <td>red</td>
+                  <td id='ProdutInfoInput1'>< input id='ProdutInfoInput'/></td>
+                  <td id='ProdutInfoInput1'><input id='ProdutInfoInput'/></td>
+                  <td id='ProdutInfoInput1'><input id='ProdutInfoInput'/></td>
                 </tr>
               </table>
             </div>

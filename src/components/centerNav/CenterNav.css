@@ -15,17 +15,20 @@
 }
 
 .CenterNav {
-    margin-top: 1.4rem;
+    margin-top: 1.6rem;
     margin-left: 4rem;
-    width: 23vw;
+    width: 30vw;
     height: 7vh;
     display: flex;
-    border-radius: 5px;
+    /* border: 1px solid black; */
+    /* border-radius: 5px; */
+  
 }
 
 .spanSearch {
     width: 30vw;
     height: 7vh;
+    padding: 4px;
     border-radius: 5px;
     text-align: center;
     font-size: 20px;
@@ -39,31 +42,21 @@ input {
 }
 
 .span {
-    font-size: 30px;
+    font-size: 25px;
     height: 7vh;
-    width: 50px;
-    background-color: yellowgreen;
+    width: 60px;
+    background-color: rgb(255, 165, 59);;
     border-start-end-radius: 5px;
+    text-align: center;
 }
 
-.CardPrising {
-    margin-top: 4rem;
-    margin-left: 5rem;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-   
 
 
-}
-.MainNavbar{
-
-}
 @media only screen and (max-width: 1200px) {
     .CardPrising {
         margin-top: 4rem;
         margin-left: 1rem;
         display: flex;
-        /* grid-template-columns: repeat(2, 1fr); */
        
     
     
