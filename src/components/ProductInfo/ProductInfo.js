@@ -51,7 +51,7 @@ export default function App() {
             <input className='input' type="text" placeholder='Product Description' />
           </div>
 
-          <button>Submit</button>
+          <button id='buttonProduct'>Submit</button>
 
         </div>
        

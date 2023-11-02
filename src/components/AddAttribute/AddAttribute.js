@@ -21,7 +21,7 @@ export default function App() {
             <input className='AddAttribute-input' type="text" placeholder='Product Name' />
 
           </div>
-          <button>Submit</button>
+          <button id='button'>Submit</button>
         </div>
       </div>
     </>
