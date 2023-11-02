@@ -10,13 +10,17 @@ table {
 }
 .Attributes-th{
   padding: 10px 100px 10px 120px;
+  font-size: 20px;
+  text-align: center;
 }
 .Attributes-td {
   padding: 10px 100px 10px 120px;
+  font-size: 20px;
+  text-align: center;
 
 
 }
-
+/* 
 th {
   font-size: 20px;
   text-align: center;
@@ -25,7 +29,7 @@ th {
 td {
   font-size: 15px;
   text-align: center;
-}
+} */
 
 tr {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
