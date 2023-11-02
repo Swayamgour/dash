@@ -5,69 +5,25 @@ import Home from '../../pages/Home/Home';
 export default function App() {
   return (
     <>
-    <Home />
-    <div className="mainDiv">
-      <div className="ProductInfo">Add Attribute</div>
+      {/* <Home /> */}
+      <div className="AddAttribute-mainDiv">
 
-      <div className="ProductInfoMain">
-        <div className="ProductInfoName">
-          <label htmlFor="">Attribute Name</label>
-          <input className='input' type="text"  placeholder='Product Name' />
-        </div>
+        <div className="AddAttribute-ProductInfoMain">
+        <div className="AddAttribute-ProductInfo" >Add Attribute</div>
 
-        <div className="ProductInfoName">
-          <label htmlFor="">Attribute Value</label>
-          <input className='input' type="text"  placeholder='Product Name' />
-         
+          <div className="AddAttribute-ProductInfoName">
+            <label htmlFor="">Attribute Name</label>
+            <input className='AddAttribute-input' type="text" placeholder='Product Name' />
+          </div>
+
+          <div className="AddAttribute-ProductInfoName">
+            <label htmlFor="">Attribute Value</label>
+            <input className='AddAttribute-input' type="text" placeholder='Product Name' />
+
+          </div>
+          <button>Submit</button>
         </div>
-        {/* <div className="ProductInfoName">
-          <label htmlFor="">Category</label>
-          <select className="input">
-            <option>Ethnic Wear</option>
-            <option>Ethnic Bottoms</option>
-            <option>Women Western</option>
-            <option>Sandels</option>
-          </select>
-        </div> */}
-        {/* <div className="ProductInfoName">
-          <label htmlFor="">Subcategory</label>
-          <select className="input">
-          <option>Ethnic Wear</option>
-            <option>Ethnic Bottoms</option>
-            <option>Women Western</option>
-            <option>Sandels</option>
-          </select>
-        </div> */}
-        {/* <div className="ProductInfoName">
-          <label htmlFor="">Brand</label>
-          <select className="input">
-          <option>Ethnic Wear</option>
-            <option>Ethnic Bottoms</option>
-            <option>Women Western</option>
-            <option>Sandels</option>
-          </select>
-        </div> */}
-        {/* <div className="ProductInfoName">
-          <label htmlFor="">Tags</label>
-          <select className="input">
-          <option>Ethnic Wear</option>
-            <option>Ethnic Bottoms</option>
-            <option>Women Western</option>
-            <option>Sandels</option>
-          </select>
-        </div> */}
-        {/* <div className="ProductInfoName">
-          <label htmlFor="">Brand</label>
-          <select className="input">
-          <option>Ethnic Wear</option>
-            <option>Ethnic Bottoms</option>
-            <option>Women Western</option>
-            <option>Sandels</option>
-          </select>
-        </div> */}
-        <button>Submit</button>
       </div>
-    </div>
     </>
   );
 }

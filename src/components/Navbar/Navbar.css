@@ -1,10 +1,14 @@
 .MainNavbar {
     width: 22%;
-    height:auto;
+    height:100vh;
     background-color: #0da487;
     color: white;
     cursor: pointer;
     position: fixed;
+    overflow: auto;
+}
+::-webkit-scrollbar{
+    display: none;
 }
 .ArrayOfList {
     width: 20vw;
@@ -57,9 +61,17 @@
  /* width: 50%;
  height: auto; */
   margin-top: 4.6rem;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   /* position: fixed; */
 
   overflow-y: hidden;
 }
-
+.active div {
+   background-color:  rgb(90, 90, 90);
+   text-decoration: none;
+   color: white;
+  }
+/* NavLink{
+    text-decoration: none;
+    color: white;
+} */

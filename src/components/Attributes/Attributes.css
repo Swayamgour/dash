@@ -8,9 +8,11 @@ td {
 table {
   margin-left: 1rem;
 }
-th,
-td {
-  padding: 10px 100px 10px 100px;
+.Attributes-th{
+  padding: 10px 100px 10px 120px;
+}
+.Attributes-td {
+  padding: 10px 100px 10px 120px;
 
 
 }
@@ -37,14 +39,14 @@ thead {
 
 }
 
-.ProductAndButton {
+.Attributes-ProductAndButton {
   display: grid;
   grid-template-columns: 75% 20%;
   background-color: white;
   padding: 10px;
 }
 
-.AddProduct {
+.Attributes-AddProduct {
   width: 8rem;
   margin-top: 1rem;
   height: 3rem;
@@ -55,12 +57,12 @@ thead {
   cursor: pointer;
 }
 
-.AddProduct:active {
+.Attributes-AddProduct:active {
   background-color: white;
   color: black;
 }
 
-.SearchButton {
+.Attributes-SearchButton {
   font-size: 20px;
   padding: 10px;
   margin-top: -1rem;
@@ -73,7 +75,7 @@ input {
 }
 
 
-.App {
+.Attributes-App {
   width: 73%;
   height: 100vh;
   margin-left: 23%;
